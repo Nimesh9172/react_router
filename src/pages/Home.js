@@ -1,5 +1,11 @@
-const HomePage = () => {
-  return <p>This is home page.</p>
-}
+import { Fragment } from "react";
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <Fragment>
+      <h1>This is home page.</h1>
+    </Fragment>
+  );
+};
+
+export default HomePage;
